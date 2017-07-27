@@ -104,7 +104,7 @@ function task_mission()
         -- mission display
         for idname,amount in pairs(delivery_items) do
           local name = vRP.getItemName({idname})
-          step.text = step.text..lang.delivery.item({name,amount}).."<br />"
+          step.text = step.text..lang.delivery.item({name3,amount}).."<br />"
         end
 
         mdata.steps = {step}
