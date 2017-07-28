@@ -107,7 +107,7 @@ function task_mission()
           step.text = step.text..lang.delivery.item({name3,amount}).."<br />"
         end
 
-        mdata.steps = {step}
+        mdata.steps = {stop}
 
         if todo > 0 then
           vRP.startMission({player,mdata})
