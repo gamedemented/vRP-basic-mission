@@ -4,6 +4,7 @@ local cfg = {}
 cfg.lang = "en"
 
 -- REPAIR
+--Hexui: https://hexui.com/forum/member.php?action=profile&uid=14871
 
 -- map of permission -> repair config
 -- (multiple repair permissions can work)
